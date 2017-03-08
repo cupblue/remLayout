@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- build:style bundle -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- /build -->
+	<script src="js/libs/zepto.min.js"></script>
+	<script src="js/libs/zepto.fx.js"></script>
+	<!-- build:script bundle -->
+	<script src="js/main.js"></script>
+	<!-- /build -->
+	<script>   
+	(function (doc, win) {
+	        var docEl = doc.documentElement,
+	            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	            recalc = function () {
+	                var clientWidth = docEl.clientWidth;
+	                if (!clientWidth) return;
+	                if(clientWidth>=640){
+	                    docEl.style.fontSize = '100px';
+	                }else{
+	                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+	                }
+	            };
+
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+	</script> 
+	<title>来就送千元购物券</title>
+</head>
+<body>
+	<div class="banner">
+		<a href="http://www.baidu.cn?from=wechat_share" target="_blank"><img class="w" src="images/bann.png" alt=""></a>
+	</div>
+	<div class="coupon clearfix">
+		<div class="coupon-head">商家优惠券</div>
+		<div class="coupon-list">
+			<img src="images/coupon1.png" alt="" class="coupon-itm"><img src="images/coupon2.png" alt="" class="coupon-itm"><img src="images/coupon3.png" alt="" class="coupon-itm"><img src="images/coupon4.png" alt="" class="coupon-itm">
+		</div>
+		<input type="tel" class="coupon-input" id="tel" maxlength="11" placeholder="请输入手机号码">
+		<div class="coupon-btn coupon-btn-submit" id="btn-couponget">立即领取</div>
+	</div>
+	<div class="product clearfix">
+		<img class="product-header w" src="images/product_top.png" alt="">
+		<ul class="product-list">
+			<li>
+				<div class="txt">
+					<a href="#" target="_blank"><img src="images/productimg.jpg" alt=""></a>
+					<div class="title"><a href="#" target="_blank">产品名称产品名称产品名称产品名称产品名称</a></div>
+					<div class="price"><i>￥</i>1799 <span class="mkt_price"><i>￥</i>2199</span></div>
+					<div class="des">产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍</div>
+				</div>
+			</li>
+			<li>
+				<div class="txt">
+					<a href="#" target="_blank"><img src="images/productimg.jpg" alt=""></a>
+					<div class="title"><a href="#" target="_blank">产品名称产品名称产品名称产品名称产品名称</a></div>
+					<div class="price"><i>￥</i>1799 <span class="mkt_price"><i>￥</i>2199</span></div>
+					<div class="des">产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍</div>
+				</div>
+			</li>
+			<li>
+				<div class="txt">
+					<a href="#" target="_blank"><img src="images/productimg.jpg" alt="">
+					<div class="title"><a href="#" target="_blank">产品名称产品名称产品名称产品名称产品名称</a></div>
+					<div class="price"><i>￥</i>1799 <span class="mkt_price"><i>￥</i>2199</span></div>
+					<div class="des">产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍产品描述产品介绍</div>
+				</div>
+			</li>
+		</ul>
+		<img class="product-btm w" src="images/product_btm.png" alt="">
+
+	</div>
+	<div class="list clearfix">
+		<div class="list-head">看看朋友运气如何</div>
+		<ul class="list-con">
+			<li><div class="phone">135 **** 4897</div><div class="coupontxt">获得<i class="sum">1000元</i>XXX商店券</div></li>
+			<li><div class="phone">135 **** 4897</div><div class="coupontxt">获得<i class="sum">1000元</i>XXX商店券</div></li>
+			<li><div class="phone">135 **** 4897</div><div class="coupontxt">获得<i class="sum">1000元</i>XXX商店券</div></li>
+			<li><div class="phone">135 **** 4897</div><div class="coupontxt">获得<i class="sum">1000元</i>XXX商店券</div></li>
+			<li><div class="phone">135 **** 4897</div><div class="coupontxt">获得<i class="sum">1000元</i>XXX商店券</div></li>
+			<li><div class="phone">135 **** 4897</div><div class="coupontxt">获得<i class="sum">1000元</i>XXX商店券</div></li>
+			<li><div class="phone">135 **** 4897</div><div class="coupontxt">获得<i class="sum">1000元</i>XXX商店券</div></li>
+			<li><div class="phone">135 **** 4897</div><div class="coupontxt">获得<i class="sum">1000元</i>XXX商店券</div></li>
+			<li><div class="phone">135 **** 4897</div><div class="coupontxt">获得<i class="sum">1000元</i>XXX商店券</div></li>
+			<li><div class="phone">135 **** 4897</div><div class="coupontxt">获得<i class="sum">1000元</i>XXX商店券</div></li>
+		</ul>
+		<!-- <div class="btn-rule clearfix" id="btn-rule">查看活动规则</div> -->
+	</div>
+	<div class="list">
+		<div class="list-head">看朋友们手气如何</div>
+		<ul class="list-con">
+			<li><img src="images/bann.png" alt=""><div class="mid"><span class="nick">三军三军三军三军三军三军三军三军</span><br><span class="time">2017-02-14 19:50:36</span></div><div class="prz">4000元优惠券</div></li>
+			<li><img src="images/bann.png" alt=""><div class="mid"><span class="nick">三军</span><br><span class="time">2017-02-14 19:50:36</span></div><div class="prz">4000元优惠券</div></li>
+			<li><img src="images/bann.png" alt=""><div class="mid"><span class="nick">三军</span><br><span class="time">2017-02-14 19:50:36</span></div><div class="prz">4000元优惠券</div></li>
+			<li><img src="images/bann.png" alt=""><div class="mid"><span class="nick">三军</span><br><span class="time">2017-02-14 19:50:36</span></div><div class="prz">4000元优惠券</div></li>
+			<li><img src="images/bann.png" alt=""><div class="mid"><span class="nick">三军</span><br><span class="time">2017-02-14 19:50:36</span></div><div class="prz">4000元优惠券</div></li>
+			<li><img src="images/bann.png" alt=""><div class="mid"><span class="nick">三军</span><br><span class="time">2017-02-14 19:50:36</span></div><div class="prz">4000元优惠券</div></li>
+			<li><img src="images/bann.png" alt=""><div class="mid"><span class="nick">三军</span><br><span class="time">2017-02-14 19:50:36</span></div><div class="prz">4000元优惠券</div></li>
+			<li><img src="images/bann.png" alt=""><div class="mid"><span class="nick">三军</span><br><span class="time">2017-02-14 19:50:36</span></div><div class="prz">4000元优惠券</div></li>
+			<li><img src="images/bann.png" alt=""><div class="mid"><span class="nick">三军</span><br><span class="time">2017-02-14 19:50:36</span></div><div class="prz">4000元优惠券</div></li>
+			<li><img src="images/bann.png" alt=""><div class="mid"><span class="nick">三军</span><br><span class="time">2017-02-14 19:50:36</span></div><div class="prz">4000元优惠券</div></li>
+		</ul>
+		<div class="btn-rule clearfix" id="btn-rule">查看活动规则</div>
+	</div>
+	<div class="popup" id="pop" style="display:none;">
+		<div class="tit">活动规则</div>
+		<div class="content">
+			<p>1. 本活动。。。</p>
+			<p>2. 活动截止于活动规则活动截止于活动规则活动截止于活动规则活动截止于活动规则活动截止于活动规则活动截止于活动规则</p>
+			<p>3. 活动截止于活动规则活动截止于活动规则活动截止于活动规则活动截止于活动规则活动截止于活动规则活动截止于活动规则</p>
+			<p>4. 解释权归我所有。</p>
+		</div>
+		<div class="btn-close"  id="close">×</div>
+	</div>
+	<div class="layer" id="layer" style="display:none;">
+		<div class="tips"><span class="tips-close">×</span></div>
+	</div>
+	<input type="hidden" name="openid" id="openid">
+
+</body>
+</html>

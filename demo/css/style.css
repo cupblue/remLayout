@@ -1,0 +1,388 @@
+@charset "UTF-8";
+/* line 1, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+/* line 6, ../sass/style.scss */
+html, body {
+  font-family: "Microsoft Yahei";
+  margin: 0 auto;
+  max-width: 750px;
+  background: #00112f;
+}
+
+/* line 12, ../sass/style.scss */
+.w {
+  width: 100%;
+}
+
+/* line 15, ../sass/style.scss */
+.tc {
+  text-align: center;
+}
+
+/* line 18, ../sass/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 26, ../sass/style.scss */
+.coupon {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  margin: .2rem .2rem .4rem;
+  border-top: 2px solid #233f72;
+  text-align: center;
+  /* 	.coupon-row{
+  		text-align: center;
+  		margin: 0 -.1rem;
+  		
+  	} */
+}
+/* line 34, ../sass/style.scss */
+.coupon .coupon-list {
+  background-color: #fff;
+  padding-bottom: .1rem;
+  overflow: hidden;
+}
+/* line 40, ../sass/style.scss */
+.coupon .coupon-head {
+  font-size: .3rem;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+  margin: -.225rem 33% .2rem;
+  background-color: #00112f;
+}
+/* line 53, ../sass/style.scss */
+.coupon .coupon-itm {
+  padding: 0 .05rem;
+  vertical-align: middle;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  width: 49%;
+}
+/* line 61, ../sass/style.scss */
+.coupon .coupon-input {
+  float: left;
+  margin-top: .15rem;
+  border: none;
+  outline: none;
+  padding: 0 .2rem;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  width: 100%;
+  font-size: .24rem;
+  line-height: .8rem;
+  background-color: #fff;
+}
+/* line 77, ../sass/style.scss */
+.coupon .coupon-btn {
+  float: left;
+  margin-top: .1rem;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f01a52;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  line-height: .8rem;
+  font-size: .4rem;
+}
+
+/* line 92, ../sass/style.scss */
+.product {
+  margin: 0 .2rem .5rem;
+}
+/* line 94, ../sass/style.scss */
+.product .product-header, .product .product-btm {
+  float: left;
+  padding: 0 0 .2rem;
+  vertical-align: top;
+}
+/* line 101, ../sass/style.scss */
+.product .product-list li {
+  float: left;
+  margin-bottom: .2rem;
+  display: -webkit-box;
+  display: box;
+  display: flex;
+  display: -webkit-flex;
+  銆€銆€銆€銆€銆€銆€display: -ms-flex;
+  background-color: #315ca9;
+  list-style: none;
+}
+/* line 111, ../sass/style.scss */
+.product .product-list li img {
+  float: left;
+  padding: .2rem;
+  width: 2rem;
+  height: 2rem;
+}
+/* line 118, ../sass/style.scss */
+.product .product-list li .txt {
+  line-height: 1.5;
+}
+/* line 120, ../sass/style.scss */
+.product .product-list li .txt a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 124, ../sass/style.scss */
+.product .product-list li .txt i {
+  font-family: Arial;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: -.045rem;
+}
+/* line 130, ../sass/style.scss */
+.product .product-list li .txt .title, .product .product-list li .txt .price {
+  color: #fff;
+  font-size: .3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 5px;
+}
+/* line 139, ../sass/style.scss */
+.product .product-list li .txt .title {
+  padding-top: .2rem;
+}
+/* line 145, ../sass/style.scss */
+.product .product-list li .txt .mkt_price {
+  font-size: .1rem;
+  color: #999;
+  padding: 0 0 0 .1rem;
+  text-decoration: line-through;
+}
+/* line 151, ../sass/style.scss */
+.product .product-list li .txt .des {
+  color: #9cbfff;
+  font-size: .2rem;
+  padding-right: .2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* line 166, ../sass/style.scss */
+.list {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: .2rem .2rem .4rem;
+  border-top: 2px solid #233f72;
+  text-align: center;
+}
+/* line 173, ../sass/style.scss */
+.list .list-con {
+  padding-bottom: .1rem;
+}
+/* line 175, ../sass/style.scss */
+.list .list-con li {
+  float: left;
+  width: 98%;
+  color: #fff;
+  font-size: .26em;
+  margin-bottom: .2rem;
+  display: -webkit-box;
+  display: box;
+  display: flex;
+  display: -webkit-flex;
+  銆€銆€銆€銆€銆€銆€display: -ms-flex;
+  flex-flow: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 190, ../sass/style.scss */
+.list .list-con li .phone {
+  margin-right: .5rem;
+}
+/* line 194, ../sass/style.scss */
+.list .list-con li .coupontxt .sum {
+  font-style: normal;
+  padding: 0 .1rem;
+  color: #f01a52;
+}
+/* line 200, ../sass/style.scss */
+.list .list-con li img {
+  width: .8rem;
+  height: .8rem;
+  border-radius: .4rem;
+  margin-right: .25rem;
+}
+/* line 206, ../sass/style.scss */
+.list .list-con li .mid {
+  line-height: 1.7;
+  padding-top: .06rem;
+  -webkit-flex: 3;
+  flex: 3;
+  text-align: left;
+}
+/* line 212, ../sass/style.scss */
+.list .list-con li .mid .nick {
+  display: block;
+  float: left;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: .25rem;
+  color: #fff;
+}
+/* line 222, ../sass/style.scss */
+.list .list-con li .mid .time {
+  color: #ccc;
+  font-size: .2rem;
+}
+/* line 227, ../sass/style.scss */
+.list .list-con li .prz {
+  color: #f01a52;
+  -webkit-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+/* line 236, ../sass/style.scss */
+.list .list-head {
+  font-size: .3rem;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+  margin: -.225rem 27% .2rem;
+  background-color: #00112f;
+}
+
+/* line 246, ../sass/style.scss */
+.btn-rule {
+  display: inline-block;
+  margin: 0 auto .3rem;
+  color: #fff;
+  background-color: #1246a2;
+  font-size: .225rem;
+  line-height: .5rem;
+  padding: 0 .4rem;
+  border-radius: .25rem;
+}
+
+/* line 256, ../sass/style.scss */
+.popup {
+  position: fixed;
+  font-size: .3rem;
+  width: 5rem;
+  height: 7rem;
+  left: 50%;
+  top: 50%;
+  margin-left: -2.5rem;
+  margin-top: -3.5rem;
+  background-color: #000f29;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #00fdff;
+}
+/* line 269, ../sass/style.scss */
+.popup p {
+  padding: .05rem 0;
+}
+/* line 272, ../sass/style.scss */
+.popup .tit {
+  text-align: center;
+  padding: .35rem 0;
+}
+/* line 276, ../sass/style.scss */
+.popup .content {
+  font-size: .2rem;
+  padding: 0 .2rem;
+  line-height: 1.5;
+}
+/* line 281, ../sass/style.scss */
+.popup .btn-close {
+  position: absolute;
+  top: -.25rem;
+  right: -.25rem;
+  width: .5rem;
+  height: .5rem;
+  text-align: center;
+  line-height: .5rem;
+  border-radius: .25rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  color: #00fdff;
+}
+
+/* line 295, ../sass/style.scss */
+.layer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 302, ../sass/style.scss */
+.layer .tips {
+  position: absolute;
+  font-size: .25rem;
+  padding: 0 .2rem;
+  min-width: 3rem;
+  min-height: .75rem;
+  line-height: .75rem;
+  left: 50%;
+  top: 50%;
+  margin-left: -1.5rem;
+  margin-top: -.5rem;
+  background-color: #000f29;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #00fdff;
+  text-align: center;
+}
+/* line 319, ../sass/style.scss */
+.layer .tips-close {
+  position: absolute;
+  top: -.2rem;
+  right: -.2rem;
+  width: .4rem;
+  height: .4rem;
+  text-align: center;
+  line-height: .4rem;
+  border-radius: .2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  color: #00fdff;
+}
+/* line 332, ../sass/style.scss */
+.layer .btn-go {
+  text-align: center;
+}
+/* line 334, ../sass/style.scss */
+.layer .btn-go a {
+  display: inline-block;
+  margin: 0 auto .3rem;
+  color: #fff;
+  background-color: #f01a52;
+  font-size: .225rem;
+  line-height: .5rem;
+  padding: 0 .4rem;
+  border-radius: .25rem;
+  text-decoration: none;
+}
